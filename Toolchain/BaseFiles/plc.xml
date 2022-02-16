@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project xmlns:ns1="http://www.plcopen.org/xml/tc6_0201" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.plcopen.org/xml/tc6_0201">
+  <fileHeader companyName="Unknown" productName="NoName" productVersion="1" creationDateTime="2020-08-28T21:59:35"/>
+  <contentHeader name="Beremiz4Pico_BaseProject" modificationDateTime="2021-09-05T12:05:51">
+    <coordinateInfo>
+      <fbd>
+        <scaling x="10" y="10"/>
+      </fbd>
+      <ld>
+        <scaling x="10" y="10"/>
+      </ld>
+      <sfc>
+        <scaling x="10" y="10"/>
+      </sfc>
+    </coordinateInfo>
+  </contentHeader>
+  <types>
+    <dataTypes/>
+    <pous/>
+  </types>
+  <instances>
+    <configurations>
+      <configuration name="config">
+        <resource name="Resource1">
+          <task name="PLCTask" priority="0" interval="T#40ms"/>
+        </resource>
+      </configuration>
+    </configurations>
+  </instances>
+</project>
